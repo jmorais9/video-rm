@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link href="video.png" rel="shortcut icon">
+        <title>Video - RM</title>
+    </head>
+    <body>
+        
+        <header>
+            <img src="video.png" id="logo">
+            <h1>Video - RM</h1>
+        </header>
+
+        <main>
+            <section class="sec1">
+            <div class="desc">
+                <h3>Descrição:</h3>
+                <span>Neymar dançando o Tchu Tcha Tcha</span>
+                <ul id="lista"></ul>
+            </div>
+            <div class="video">
+                <video controls poster="video.png" id="video1">
+                    <source src="neymarsantos.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="botoes">
+                <button onclick="play()">Play</button><br>
+                <button onclick="Pause()">Pause</button><br>
+                <button onclick="Aumentar()">Aumentar</button><br>
+                <button onclick="Diminuir()">Diminuir</button><br>
+                <button onclick="Dados()">Dados do Video</button><br>
+                <button onclick="Alterar()">Alterar Poster</button>
+            </div>
+            </section>
+
+            <section class="sec2">
+            <div class="desc">
+                <h3>Descrição:</h3>
+                <span>Neymar, Ganso e Robinho dançando</span>
+                <ul id="lista2"></ul>
+            </div>
+            <div class="video">
+                <video controls poster="video.png" id="video2">
+                    <source src="seara.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="botoes">
+                <button onclick="play2()">Play</button><br>
+                <button onclick="Pause2()">Pause</button><br>
+                <button onclick="Aumentar2()">Aumentar</button><br>
+                <button onclick="Diminuir2()">Diminuir</button><br>
+                <button onclick="Dados2()">Dados do Video</button><br>
+                <button onclick="Alterar2()">Alterar Poster</button>
+            </div>
+            </section>
+            <script src="code.js"></script>
+        </main>
+    </body>
+</html>
